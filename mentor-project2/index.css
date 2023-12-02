@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    background-color: hsl(0, 0%, 95%);
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 210px;
+}
+.preview {
+    color: white;
+    height: 500px;
+    width: 300px;
+}
+
+
+.preview img{
+    margin: 15px 0 0 24px;
+}
+.preview h2 {
+
+    font-family: 'lexend Deca';
+    color: hsl(0, 0%, 95%);
+    padding-left: 25px;
+    padding-top: 40px;
+    font-size: 2.2rem;
+}
+
+.preview p {
+    font-family: 'lexend Deca';
+    margin: 40px;
+    padding-top: 40px;
+}
+
+.btn1 {
+    width: 180px;
+    padding: 18px;
+    margin: 25px;
+    margin-top: 42px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    text-align: center;
+    color: hsl(31, 77%, 52%);
+    border-style: none;
+    font-size: 15px;
+    font-family: 'lexend Deca';
+    
+}
+
+.btn2 {
+    width: 180px;
+    padding: 18px;
+    margin: 25px;
+    margin-top: 42px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    text-align: center;
+    color: hsl(184, 100%, 22%);
+    border-style: none;
+    font-size: 15px;
+    font-family: 'lexend Deca';
+}
+.btn3 {
+    width: 180px;
+    padding: 18px;
+    margin: 25px;
+    margin-top: 53px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 50px;
+    text-align: center;
+    color: hsl(179, 100%, 13%);
+    border-style: none;
+    font-size: 15px;
+    font-family: 'lexend Deca';
+    
+}
+#card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+
+}
+
+#card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+@media (max-width:375px){
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .preview {
+
+        color: white;
+        height: 250vh;
+        width: 300vw;
+    }
+    .preview img{
+        margin: 50px 0 0 40px;
+        height: 150px;
+
+    }
+    .preview h2 {
+    
+        font-family: 'lexend Deca';
+        color: hsl(0, 0%, 95%);
+        padding-left: 100px;
+        padding-top: 150px;
+        font-size: 12rem;
+    }
+    
+    .preview p {
+        font-family: 'lexend Deca';
+        margin: 100px;
+        padding-top: 30%;
+        font-size: 60px;
+    }
+    
+    .btn1 {
+        height: 12rem;
+        width: 50rem;
+        padding: 18px;
+        margin: 150px 0 0 100px;
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 100px;
+        text-align: center;
+        color: hsl(31, 77%, 52%);
+        border-style: none;
+        font-size: 50px;
+        font-family: 'lexend Deca';
+        color: hsl(184, 100%, 22%);
+        color: hsl(179, 100%, 13%);
+
+
+        
+    }
+    
+    .btn2 {
+        height: 12rem;
+        width: 50rem;
+        padding: 18px;
+        margin: 150px 0 0 100px;
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 100px;
+        text-align: center;
+        border-style: none;
+        font-size: 50px;
+        font-family: 'lexend Deca';
+        color: hsl(184, 100%, 22%);
+    }
+    .btn3 {
+        height: 12rem;
+        width: 50rem;
+        padding: 18px;
+        margin: 150px 0 0 100px;
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 100px;
+        text-align: center;
+        border-style: none;
+        font-size: 50px;
+        font-family: 'lexend Deca';
+        color: hsl(179, 100%, 13%);
+
+        
+    }
+    #card1  {
+        border-radius: 50px 50px 0 0;
+    }
+    
+    #card3  {
+        border-radius: 0 0 50px 50px;
+    }
+}
